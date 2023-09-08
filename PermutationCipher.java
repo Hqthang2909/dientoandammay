@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class PermutationCipher {
     public static void main(String[] args) {
         String message = "luan ";
-        String key = "chu van";
+        String key = "chu thanh";
         String encryptedMessage = encrypt(message,key);
         System.out.println("Encrypted message: " + encryptedMessage);
         String decryptedMessage = decrypt(encryptedMessage, key);
